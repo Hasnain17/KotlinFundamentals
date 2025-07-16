@@ -1,4 +1,4 @@
-package topics
+package kotlinFundamentals.topics
 
 data class User(val name: String)
 
@@ -23,7 +23,7 @@ class ReifiedKeyword {
 }
 
 fun main(){
-    val instance=ReifiedKeyword()
+    val instance= ReifiedKeyword()
     instance.printTypeName<String>("Hasnain")
     instance.printTypeName<Int>("Hasnain")
 }
