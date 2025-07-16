@@ -4,6 +4,7 @@ fun main() {
 
         println(result1) // Output: Hello World
         println(result2) // Output: Kotlin is awesome
+
     }
     fun concatenateStrings(vararg strings: String): String {
         return strings.joinToString(separator = " ")
