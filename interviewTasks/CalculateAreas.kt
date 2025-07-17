@@ -1,4 +1,4 @@
-package interviewTasks
+package kotlinFundamentals.interviewTasks
 
     // To calculate the area of a circle and a square from a list of side lengths in Kotlin, you can iterate over the list and compute
     fun main(){
